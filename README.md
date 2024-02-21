@@ -11,3 +11,12 @@ docker run -p 9092:9092 \
 -e KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR=1 \
 confluentinc/cp-kafka
 ```
+
+
+## Run
+1. node producer.js
+```
+tony south
+bill north 
+```  
+2. node consumer.js user-1
